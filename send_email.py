@@ -9,8 +9,8 @@ load_dotenv()
 
 
 def send_email(email, height,average_height,count):
-    from_email=os.getenv("ACCOUNT_EMAIL")
-    from_password=os.getenv("ACCOUNT_PASSWORD")
+    from_email="vicscherman@gmail.com"
+    from_password="Amandaforever69"
     to_email=email
 
     subject="Height data"
