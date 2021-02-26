@@ -1,13 +1,13 @@
 from email.mime.text import MIMEText
 import smtplib
-from dotenv import load_dotenv
-load_dotenv()
 
-import os
+
+
+
 
 def send_email(email, height,average_height,count):
-    from_email= os.environ.get('ACCOUNT_EMAIL')
-    from_password=os.environ.get('ACCOUNT_PASSWORD')
+    from_email='vicscherman@gmail.com'
+    from_password='Amandaforever69'
     to_email=email
 
     subject="Height data"
